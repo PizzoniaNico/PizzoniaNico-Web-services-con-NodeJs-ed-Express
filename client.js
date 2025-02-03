@@ -1,10 +1,13 @@
-... // definizione di variabili DOM, tra cui un bottone che chiamiamo "insertButton"
+const todoText = document.getElementById("todoInput").value;
+const todoList = document.getElementById("todoList");
+const insertButton = document.createElement("button");
+ // definizione di variabili DOM, tra cui un bottone che chiamiamo "insertButton"
 
 let todos = []; // lista dei task
 
 const render = () => {
 
-   ... // codice che genera l'html da todos
+   // codice che genera l'html da todos
 
 }
 
